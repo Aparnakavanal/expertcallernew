@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="create" method="post">
+    {% csrf_token %}
+    <input type="text" name="name" placeholder="name"><br>
+    <input type="text" name="designation" placeholder="designation"><br>
+    <input type="text" name="employeid" placeholder="employeid"><br>
+    <input type="text" name="phonenumber" placeholder="phonenumber"><br>
+    <input type="text" name="email" placeholder="email"><br>
+    <input type="text" name="rmp" placeholder="rmp"><br>
+    <input type="text" name="age" placeholder="age"><br>
+    <input type="text" name="salary" placeholder="salary"><br>
+    <input type="submit">
+</form>
+
+</body>
+</html>
